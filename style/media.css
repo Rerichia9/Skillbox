@@ -1,0 +1,157 @@
+@media (max-width: 1200px) {
+  .hero {
+    padding: 130px 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero__title {
+    margin-bottom: 16px;
+    font-size: 50px;
+  }
+
+  .benefits__item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .benefits__item-img {
+    margin-bottom: 15px;
+  }
+
+  .teachers__item:nth-last-child(n+3) {
+    margin-bottom: 30px;
+  }
+
+  .courses__item-descr {
+    min-height: 200px;
+  }
+
+  .courses__btn {
+    padding: 20.5px 55.5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .hero__img {
+    display: none;
+  }
+
+  .hero {
+    padding-top: 78px;
+    padding-bottom: 135px;
+  }
+
+  .benefits-wrap {
+    flex-wrap: nowrap;
+  }
+
+  .courses__btn {
+    padding: 20px 48px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .courses__item-descr {
+    min-height: 280px;
+  }
+
+  .courses__item-title {
+    min-height: 45px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header__nav {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .header__logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0;
+  }
+
+  .hero__title {
+    font-size: 30px;
+    line-height: 100%;
+    margin-bottom: 15px;
+  }
+
+  .hero__descr {
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 50px;
+  }
+
+  .hero {
+    padding: 50px 0;
+  }
+
+  .benefits__img {
+    display: none;
+  }
+
+  .benefits__title {
+    font-size: 20px;
+    line-height: 130%;
+  }
+
+  .benefits__descr {
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .benefits__item {
+    flex-direction: row;
+  }
+
+  .benefits__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .benefits__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .wrap {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .teachers__title {
+    font-size: 20px;
+    line-height: 100%;
+  }
+
+  .teachers__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .courses__title {
+    font-size: 20px;
+    line-height: 100%;
+  }
+
+  .hero__btn {
+    padding: 20px 54px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .header__burger {
+    display: flex;
+    justify-content: space-between;
+  }
+}
